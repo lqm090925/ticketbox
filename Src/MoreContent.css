@@ -1,0 +1,58 @@
+.morecontent{
+    background-color: black;
+    min-height: 100vh;
+}
+.contain{
+   display: flex;
+   justify-content: center;
+}
+.Result{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 10px 150px;
+}
+.Result span{
+    color: #2DC275;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.empty span{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.empty img{
+    width: 120px;
+    height: 120px;
+}
+.empty p{
+    color:white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recomcontent{
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+}
+.Recommend {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Recommend span{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

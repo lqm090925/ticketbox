@@ -1,0 +1,30 @@
+
+ export const footer = { 
+    vi: { 
+        hotline: "Thứ 2 - Chủ nhật(0:00 - 24:00)",
+         email: "nvu281205@gmai.com",
+         office: "22,Rùa Hạ 2,Thanh Thùy,Thanh Oai,TP.Hà Nội", 
+         customer: "Điều khoản sử dụng cho khách hàng", 
+         customertitle:"Dành cho khách hàng",
+         orgtitle:"Dành cho Ban tổ chức",
+         organizer: "Điều khoản sử dụng cho ban tổ chức",
+          companyTitle: "Về công ty chúng tôi", 
+          companyItems: [ "Quy chế hoạt động", "Chính sách bảo mật thông tin", "Cơ chế giải quyết tranh chấp khiếu nại", "Chính sách bảo mật thanh toán", "Chính sách đổi trả và kiểm hàng", "Điều kiện vận chuyển và giao nhận", "Phương thức thanh toán", ], 
+          ticketApp: "Ứng dụng TicketBox", 
+          checkinApp: "Ứng dụng check-in cho Ban tổ chức", 
+          language: "Ngôn ngữ",
+         },
+     en: { 
+        hotline: "MonDay - SunDay(0:00 - 24:00)", 
+        email: "nvu281205@gmai.com",
+        office: "22,Rua Ha 2,Thanh Thuy,Thanh Oai,Ha Noi",
+        customer: "Customer terms for use",
+        customertitle:"For Customer",
+         orgtitle:"For Organizer",
+        organizer: "Organizer terms for use", 
+        companyTitle: "Our company",
+        companyItems: [ "Operational regulations", "Information privacy policy", "Dispute settlement policy", "Payment privacy policy", "Return and inspection policy", "Shipping and delivery conditions", "Payment method", ], ticketApp: "TicketBox App", 
+        checkinApp: "Check-in app for organizer", 
+        language: "Language", 
+    }, 
+}

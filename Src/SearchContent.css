@@ -1,0 +1,122 @@
+.Search{
+    height: 750px;
+    z-index: 10;
+    position: absolute;
+    top: 72px;
+    left: 435px;
+    width: 51%;
+    padding: 20px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background: linear-gradient(
+  to bottom,
+  rgba(25, 26, 25, 0.5), 
+  rgba(36, 32, 32, 0.6),  
+  rgba(89, 83, 83, 0.4) 
+);
+ -webkit-backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);  
+ 
+}
+
+.searchform {
+    position: relative;
+    padding: 15px 15px 15px 0px;
+}
+.titleform{
+    display: flex;
+    gap: 35px;
+}
+.spanactive{
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    width: 168px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spanactive.inactive{
+color:#FFFFFF80!important;
+}
+.linecate{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    border-radius: 100px;
+    height: 3px;
+    width: 140px;
+    background-color: #2DC275;
+}
+.linecity{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 27%;
+     border-radius: 100px;
+    height: 3px;
+    width: 150px;
+    background-color: #2DC275;
+}
+.imgSearchForm{
+    cursor: pointer;
+    padding: 10px 0px 10px 0px;
+    width: 99%;
+    border-top: 1px solid white ;
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+}
+.imgSearch{
+    border-radius: 10px;  
+    position: relative;
+}
+.imgSearch img{
+    border-radius: 10px;
+   width: 180px;
+   height: 100px;
+}
+.imgSearch span{
+   position: absolute;
+   top: 8px;
+   left: 8px;
+   font-size: 14px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+.recommendSearch span{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recommendForm{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.recommendGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   padding: 0px 10px 0px 10px ; 
+}
+@media (max-width: 768px) {
+    .Search{
+        width: 100%;
+        left: 0;
+        top: 60px;
+        height: 400px;
+    }
+    .titleform{
+        gap: 20px;
+    }
+    .spanactive{
+        width: 120px;
+        font-size: 12px;
+    }
+    .linecity{
+        left: 20%;
+    }
+    .linecate{
+        width: 120px;
+    }
+}
